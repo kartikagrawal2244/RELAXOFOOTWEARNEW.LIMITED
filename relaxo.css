@@ -1,0 +1,347 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;            
+}
+header
+{   
+    background-color: #ffffff;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+#ibotton
+{
+    position: relative;
+    left:900px;
+    margin-left: 25px;            
+}       
+.head{
+    display: flex;
+    font-weight: bold;
+    padding: 6px;
+    list-style: none;
+    background-color: black;
+}
+.head  li a
+{
+    position: relative;
+    color:#ffffff;
+    left: 550px;
+    text-decoration: none;
+    padding: 8px;
+    padding-left: 15px;
+}
+.head li a:hover
+{
+    border-bottom: 5px solid orange;
+    padding-bottom: 3px;
+}
+.active
+{
+    background-color: orange; 
+}
+.head .fa
+{
+    margin-right: 8px;
+}
+.img
+{
+    position: relative;
+    left:30px;
+    margin: 0px;
+    padding: 0px;   
+}
+#slider button
+{
+    font-size: 15px;
+    position:absolute;
+    top: 55%;
+    cursor: pointer;
+    background-color: transparent;
+    border:3px solid #111;
+    width: 30px;
+    height: 30px;
+}
+#slider .next
+{
+    border-radius: 50%;
+    left: 1310px;
+    
+}
+#slider .prew
+{
+    border-radius:50%;   
+}
+#fd
+{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+.container .row a
+{
+    position: relative;
+    left: 30px;
+    bottom: 330px;
+    text-align: center ;
+    text-decoration: none;
+    background-color: #fff;
+    color: #111;
+    border-radius: 50px;
+    display: block;
+    width: 105px;
+    padding: 5px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.container .row a:hover
+{
+    background-color: #374a94;
+    color: #fff;
+}
+
+h2
+{
+    color: rgba(22, 22, 206, 0.678);
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.max-width .raw
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+footer
+{
+    background-color: #111;
+    padding: 10px;    
+}
+.footer-col
+{
+    width: 25%;    
+}
+h5
+{
+    color:rgb(255, 255, 255);   
+} 
+.footer-col ul li a
+{
+    position: relative;
+    color: grey;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+    right: 30px;
+}
+.footer-col p
+{
+    position: relative;
+    color: grey;
+
+}
+.footer-col ul li a:hover
+{
+    color: #ffff;
+}
+.ft-name
+{
+    position: relative;
+    background-color: transparent;
+    border: none;  
+}
+.ft-submit
+{
+    position: relative;
+    left: 150px;
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: transparent;
+    color:rgba(146, 143, 143, 0.89);
+    border-color: rgba(146, 143, 143, 0.89);
+    margin-top: 20px;
+}
+.ft-submit:hover
+{
+    background-color:rgba(146, 143, 143, 0.89) ;
+    color: #ffffff;
+}
+#par
+{  
+    color: white;
+    margin-left: 20px;
+}
+.head ul
+{
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+.head ul li a
+{
+    position: relative;
+    background-color:#111;
+    color: #ffffff;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    top: 5px;
+    left: 425px;
+    font-size: medium;
+    
+}
+.head ul li a:hover
+{
+    border: none;
+    color:orange ;
+}
+.head li:hover>ul 
+{
+    display: block;
+}
+#navv a
+{
+    display: inline-block;
+    position: relative;
+    left: 980px;
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
+    background-color: transparent;
+    color: #ffffff;
+    box-shadow: 0px 0px 0px 1px rgba(146, 143, 143, 0.89) ;
+    line-height: 50px;
+    text-align: center;
+    font-size: x-large;
+    margin: 10px;
+}
+.fa-instagram:hover
+{
+    position: relative;
+    background-color: magenta;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    right: 1px;
+    bottom: 1px;
+}
+.fa-twitter:hover
+{
+    position: relative;
+    background-color: #1baaa0;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    right: 1px;
+    bottom: 1px;
+}
+.fa-facebook:hover
+{
+    position: relative;
+    background-color: #374a94;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    right: 1px;
+    bottom: 1px;
+}
+.fa-youtube:hover
+{
+    position: relative;
+    background-color:red;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    right: 1px;
+    bottom: 1px;
+}
+.new
+{
+    background-image: url(https://www.relaxofootwear.com/assets/img/csr-relaxo-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 100vh;
+    margin-bottom: 60px;
+    position: relative;
+    left: 30px;
+}
+.new img
+{
+    position: relative;
+    top: 22%;
+    left: 50px;
+}
+.new h3
+{
+    color: rgba(20, 20, 136, 0.686);
+    margin-left: 700px;
+    position: relative;
+    bottom: 240px;
+    font-weight: bolder;
+}
+.new h5
+{
+    margin-left: 700px;
+    color: rgb(35, 35, 115);
+    font-weight: normal;
+    position: relative;
+    bottom: 220px;
+}
+.NEW img
+{
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 50px;
+    position: relative;
+    left: 40px;
+}
+.new a
+{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #374a94;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    left: 700px;
+    bottom: 200px;
+    font-weight:400;
+}
+.new a:hover
+{
+    background-color:#3f6ec6fd;
+    color: #ffffff;
+}
+.new a i
+{
+    border-radius: 50%;
+    background-color: orange;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    position: relative;
+    left: 25px;   
+    color: #374a94;
+}

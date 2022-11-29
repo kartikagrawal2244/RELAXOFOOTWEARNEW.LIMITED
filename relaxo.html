@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="relaxo.css">
+    <script src="https://kit.fontawesome.com/948514dc12.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://dxkvlfvncvqr8.cloudfront.net/assets/img/favicon.jpg">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Footwear Online for Men, Women & Kids in India | Relaxo</title>
+</head>
+
+<body>
+    <header>
+        <img src="https://dxkvlfvncvqr8.cloudfront.net/assets/img/logo.png" alt="logo" width="140px" class="img">
+        <i class="fa fa-magnifying-glass-dollar" id="ibotton"></i>
+        <i class="fa fa-house" id="ibotton"></i>
+        <i class="fa fa-location-dot"id="ibotton"></i>
+        <i class="fa fa-user-o"id="ibotton"></i> 
+        <i class="fa fa-shopping-cart"id="ibotton"></i>
+        <i class="fa fa-bars"id="ibotton"></i>
+        <nav>
+            <ul class="head">
+                <li><a  href="*" class="active"><i class="fa fa-shopping-bag"></i> SALE</a>
+                    <ul>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Kids</a></li>
+                    </ul>
+                </li>
+                <li><a href="*"><i class="fa fa-home"></i>NEW ARRIVALS</a>
+                    <ul>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Kids</a></li>
+                    </ul>
+                </li>
+                <li><a  href="*"><i class="fa fa-female"></i>WOMEN</a>
+                    <!-- <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul> -->
+                </li>
+                <li><a  href="*"><i class="fa fa-male"></i>MEN</a>
+                </li>
+                <li><a  href="*"> <i class="fa fa-child"></i> KIDS</a>
+                </li>
+                <li><a  href="*"><i class="fa fa-copyright"></i>BRANDS</a>
+                </li>
+                <li><a  href="*"><i class="fa fa-wrench"></i>ACCESSORIES</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="slider">
+        <div id="box">
+            <img src="1.jpg">
+        </div>
+        <button class="prew fa fa-chevron-left" onclick="prew()"></button>
+        <button class="next fa fa-chevron-right" onclick="next()"></button>
+    </div>
+    <script>
+        var img_slide=document.getElementById("box")
+        var image=["1","2","3","4"]
+        var i=image.length;
+        function next()
+        {
+            if(i<image.length)
+            {
+                i=i+1;
+            }
+            else
+            {
+                i=1;
+            }
+            img_slide.innerHTML="<img src="+image[i-1]+".jpg>";
+        }
+        function prew()
+        {
+            if(i<image.length && i>1)
+            {
+                i=i-1;
+            }
+            else
+            {
+                i=image.length-1;
+            }
+            img_slide.innerHTML="<img src="+image[i]+".jpg>";
+        }
+        // setInterval(next,1000);   
+    </script>
+    <h2>FEATURED PRODUCTS</h2> 
+    <div id="fd">
+        <a href=""><img src="https://dxkvlfvncvqr8.cloudfront.net/media/file/cms-banner/download_file/sm--756-1664189275.png" alt="" width="400px" ></a>
+        <a href=""><img src="https://dxkvlfvncvqr8.cloudfront.net/media/file/cms-banner/download_file/image01-1656579627.jpg" alt="" width="400px" ></a>
+        <a href=""><img src="https://dxkvlfvncvqr8.cloudfront.net/media/file/cms-banner/download_file/featured-product-2-copy-(2)-1656075320.jpg" alt="" width="400px"></a>
+    </div> 
+        <h2>SHOP BY CATEGORY</h2>
+    <div>
+        <img src="https://dxkvlfvncvqr8.cloudfront.net/media/images/cms-banner/image_path/448x373-copy2-1649757519.jpg" alt="SANDALS">
+        <img src="https://dxkvlfvncvqr8.cloudfront.net/media/images/cms-banner/image_path/448x373-copy1-1649757582.jpg" alt="SHOES">
+        <img src="https://dxkvlfvncvqr8.cloudfront.net/media/images/cms-banner/image_path/untitled-2-1656594897.png" alt="FLIP FLOPS">
+    </div>
+    <h2>SHOP BY GENDER</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="https://dxkvlfvncvqr8.cloudfront.net/media/images/cms-banner/image_path/448x373-2-1666091220.png"  alt="WOMEN" width="430px" style="position: relative; right: 110px;">
+                <a  href="#" style="position:relative; left:-90px;">WOMEN</a>
+            </div>
+            <div class="col-sm-4">
+                <img src="https://dxkvlfvncvqr8.cloudfront.net/media/images/cms-banner/image_path/448x373-1666091286.png"  alt="MEN" width="430px" style="position:relative; right:40px;">
+                <a href="#" style="position:relative; left:-10px;">MEN</a>
+            </div>
+            <div class="col-sm-4">
+                <img src="https://dxkvlfvncvqr8.cloudfront.net/media/images/cms-banner/image_path/kidimage-1656741531.png" alt="KIDS" width="430px" style="position:relative; left: 30px;">      
+                <a href="#" style="position:relative; left:50px;">KIDS</a>
+            </div>
+        </div>
+    </div>
+    <div id="slide">
+        <div class="NEW">
+            <h2>SHOP BY BRAND</h2> 
+            <img src="5.jpg" alt="csr-relaxo-banner" width="45%">
+            <img src="6.jpg" width="45%" alt="csr-relaxo-banner">
+        </div>
+        <!-- <button class="prew fa fa-chevron-left" onclick="prew()"></button>
+        <button class="next fa fa-chevron-right" onclick="next()"></button> -->
+    </div>
+    <!-- <script>
+        var img_slide=document.getElementsByClassName("NEW")
+        var image=["5","6","7","8","9","10","11"];
+        var i=image.length;
+        function next() 
+        {
+            if (i<image.length){
+                i=i+1;
+            }  
+            else{
+                i=1;
+            }  
+            img_slide.innerHTML="<img src="+image[i-1]+".jpg>";
+        }
+        function prew()
+        {
+            if (i<image.length && i>1) {
+                i=i-1;
+            } else {
+                i=image.length-1;
+            }
+            img_slide.innerHTML="<img src="+image[i]+".jpg>";
+        }
+    </script> -->
+    <div class="new">
+        <img src="https://dxkvlfvncvqr8.cloudfront.net/assets/img/relaxo-foundation.png" alt="image">
+        <h3>Relaxo foundation salutes the unsung <br> Warriors</h3>
+        <h5>As a token of gratitude Relaxo Foundation <br> has provided 25,000 slippers for those <br> frontline warriors.</h5>
+        <h5>We salute their selfless service.</h5>
+        <a href="#">Watch Video<i class="fa fa-play"></i> </a>
+    </div>
+<footer>    
+    <div class="max-width">
+        <div class="raw">
+            <div class="footer-col">
+                <h5>COMPANY INFO</h5>
+                <br>
+                <ul type="none">
+                <li><a href="" >About Company</a></li>
+                <br>
+                <li><a href="">Board of Directors</a></li>
+                <br>
+                <li><a href="">Awards & Accolades</a></li>
+                <br>
+                <li><a href="">Manufacturing Excellence</a></li>
+                <br>
+                <li><a href="">CSR</a></li>
+                <br>
+                <li><a href="">Investor Relations</a></li>
+                </ul>
+                <br>   
+                <h5>CAREERS</h5>
+                <br>
+                <ul type="none">
+                <li><a href="">Work With Us</a></li>
+                </ul>
+            </div>   
+           <div class="footer-col">
+                <h5>RELAXO POLICIES</h5>
+                <br>
+                <ul type="none">
+                <li><a href="">Terms and Conditions</a></li>
+                <br>
+                <li><a href="">Payment Options</a></li>
+                <br>
+                <li><a href="">Return Policy</a></li>
+                <br>
+                <li><a href="">Exchange Policy</a></li>
+                <br>
+                <li><a href="">Shipping Policy</a></li>
+                <br>
+                <li><a href="">Size Guide</a></li>
+                <br>
+                <li><a href="">Help and Privacy</a></li>
+                </ul>
+                <br>
+                <h5>SITE MAP</h5>
+            </div>
+            <div class="footer-col">
+                <h5>CUSTOMER SERVICE</h5>
+                <br>
+                <ul type="none">
+                <li><a href="">My Account</a></li>
+                <br>
+                <li><a href="">Track Your Order</a></li>
+                <br>
+                <h5 style="position: relative; right: 30px;">LOCATE US</h5>
+                <br>
+                <li><a href="">Exclusive Brand Outlets</a></li>
+                <br>
+                <li><a href="">Become Our Franchise</a></li>
+                <br>
+                <li><a href="">Become Our Distributor</a></li>
+                <br>
+                <li><a href="">Vendor Portal Login</a></li>
+                <br>
+                <li><a href=""><i class="fa fa-phone"></i> Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <ul type="none">
+                    <li><h5 style="position: relative; right: 5px;">RELAXO FOOTWEARS LIMITED</h5></li>
+                    <br>
+                    <li><P><i class="fa fa-address-card"></i> Aggarwal City Square,<br>
+                    Plot No. 10, Mangalam Place,<br>
+                    District Center, Rohini Sector-3,<br>
+                    Delhi - 110085</P></li>
+                    <li><p>Toll Free No.</p></li>
+                    <li><h5>1800-108-6001</h5></li>
+                    <br>
+                    <li><h5>SIGN UP FOR UPDATES</h5></li>
+                    <br>
+                    <li><input class="ft-name" type="email" placeholder="Email"></li> 
+                    <hr style="color: #ffffff;">
+                    <li><input class="ft-submit" type="submit" value="submit" ></li>
+                </ul>
+            </div>
+            <div id="navv">
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </div> 
+    <p id="par">© Copyright 2021 Relaxo Footwears Limited. All rights reserved</p>  
+</footer>
+</body>
+</html>
